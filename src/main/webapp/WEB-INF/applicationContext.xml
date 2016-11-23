@@ -16,5 +16,9 @@
             <jaxrs:serviceBeans>
                 <ref bean="newWebService" />
             </jaxrs:serviceBeans>
+            
+            <jaxrs:providers>
+                <bean class="org.codehaus.jackson.jaxrs.JacksonJsonProvider" />
+            </jaxrs:providers>
 	</jaxrs:server>
 </beans>
