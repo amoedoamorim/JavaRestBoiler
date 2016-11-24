@@ -21,6 +21,7 @@
         <listener-class>
             org.springframework.web.context.ContextLoaderListener
         </listener-class>
+        <listener-class>com.amoedoamorim.javarestboiler.contextlistener.AppContextLoaderListener</listener-class>
     </listener>
     
     <servlet>
